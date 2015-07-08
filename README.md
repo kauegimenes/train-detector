@@ -14,8 +14,8 @@ Edit the prep.py script and change the WIDTH, HEIGHT, and COUNTRY variables to m
 Once you are ready to start training, enter the following commands:
 
   - rm ./out/*    (clear the out folder in case it has data from previous runs)
-  - ./prep.py neg
-  - ./prep.py pos
+  - ./prep.py negative
+  - ./prep.py positive
   - ./prep.py train
   - Copy the output from the above command onto the command line.  You should adjust the numStages to a smaller value (usually 12 stages works well, but it will depend on your input images).  You may also need to adjust the numPos value to a smaller number in order to complete the training.
 
